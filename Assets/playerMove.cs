@@ -10,14 +10,16 @@ public class playerMove : MonoBehaviour
     public float downStep;
     Vector3 velocity;
     public float airControl;
-
+    public int health = 100;
     float Xaxis;
     float Yaxis;
+    public bool hasLionDrop = false;
 
     public Vector3 rootMotion;
     public Animator anim;
     public CharacterController charCont;
-    // Start is called before the first frame update
+    public CharacterController Controller { get => charCont; set => charCont = value;}
+
     void Start()
     {
         jmpHt = 3f;
@@ -37,7 +39,9 @@ public class playerMove : MonoBehaviour
         anim.SetFloat("Yaxis", Yaxis*10);
         anim.SetFloat("Xaxis", Xaxis*10);
   
-        
+        if(health>100){
+		health =100;
+	  }
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Jump();
