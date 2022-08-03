@@ -58,6 +58,13 @@ public class FoxAI : EnemyScript
 						timer = 0;
 					}
 				}
+			}else{
+				if(timer >= wanderTime){
+					Vector3 wanderPos = Wander(transform.position, wanderRadius, -1);
+					anim.SetFloat("Speed", speed);
+					navAgent.SetDestination(wanderPos);
+					timer = 0;
+				}
 			}
 		}	
 	}
