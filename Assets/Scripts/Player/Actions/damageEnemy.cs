@@ -20,7 +20,7 @@ public class damageEnemy : MonoBehaviour
         {
             EnemyScript enemy = other.gameObject.GetComponent<EnemyScript>();
             enemy.health -= 10f;
-            cooldown = 3;
+            cooldown = 5;
         }
         
     
