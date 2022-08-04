@@ -18,7 +18,7 @@ public class attack : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetMouseButtonDown(0))
         {
             anim.Play("attack");
             if (isColliding)
