@@ -23,6 +23,8 @@ public class playerMoveHub : MonoBehaviour
     public CharacterController charCont;
     public CharacterController Controller { get => charCont; set => charCont = value;}
 
+    int isSprintingParam = Animator.StringToHash("isSprinting");
+
     void Start()
     {
         jmpHt = 15f;
@@ -49,6 +51,8 @@ public class playerMoveHub : MonoBehaviour
 
         rotation.y += Input.GetAxis("Mouse X") * lookSpeed;
         transform.eulerAngles = rotation;
+  
+        IsSprinting();
   
         if(health>100){
 		    health =100;
@@ -88,6 +92,12 @@ public class playerMoveHub : MonoBehaviour
                 velocity.y = 0;
             }
         }
+    }
+
+    void IsSprinting()
+    {
+        bool isSprinting = Input.GetKey(KeyCode.LeftShift);
+        anim.SetBool(isSprintingParam, isSprinting);
     }
 
     void Jump()
