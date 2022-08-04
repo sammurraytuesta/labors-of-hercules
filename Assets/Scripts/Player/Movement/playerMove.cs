@@ -32,7 +32,7 @@ public class playerMove : MonoBehaviour
         downStep = 0.1f;
         airControl = 8f;
         rotation.y = 180;
-        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         anim = GetComponent<Animator>();
         charCont = GetComponent<CharacterController>();
     }
