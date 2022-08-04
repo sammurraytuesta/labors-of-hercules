@@ -5,7 +5,9 @@ using UnityEngine.AI;
 
 public class LionAI : EnemyScript
 {
-    public Transform[] points;
+    //public Transform[] points;
+	public Transform pointOne;
+	public Transform pointTwo;
     private int nextPoint = 0;
     private NavMeshAgent navAgent;
     private Animator anim;
@@ -18,16 +20,23 @@ public class LionAI : EnemyScript
     private bool goneToPointOne =false;
     private bool goneToPointTwo =false;
     public GameObject NemeanHide;
+	private float elapsedTime;
+	private float invulnerabilityTime = 20f;
+	private float timer = 0.0f;
 
     protected override void Start()
     {
-	navAgent= GetComponent<NavMeshAgent>();
-	anim = GetComponent<Animator>();
-	health = 100f;
+	
+		navAgent= GetComponent<NavMeshAgent>();
+		anim = GetComponent<Animator>();
+		health = 100f;
+		
+
     }
 
     void FixedUpdate()
     {
+        
       ray = new Ray(transform.position, (player.Controller.transform.position-transform.position));
 	if(attackCoolDown != 0){
 		attackCoolDown -= Time.deltaTime;
@@ -51,12 +60,18 @@ public class LionAI : EnemyScript
 				}
 			}
 		}
+
 		if(health <= 66 && !goneToPointOne){
-			Run();
+				print("headed to point 2");
+				Invulnerable(1);
+			Run(pointOne);
 			goneToPointOne = true;
 		} 
             if(health <= 33 && !goneToPointTwo){
-			Run();
+				Invulnerable(2);
+
+				print("headed to point 2");
+				Run(pointTwo);
 			goneToPointTwo = true;
 		} 
 	}
@@ -75,8 +90,27 @@ public class LionAI : EnemyScript
 	player.health -= Random.Range(10,21);
     }
   
-    void Run(){
+    void Run(Transform nextPoint){
+		
+		
 	anim.SetFloat("Speed", speed);
-	navAgent.destination = points[nextPoint].position;
-    } 
+		navAgent.destination = nextPoint.position;//points[nextPoint].position;
+    }
+
+	void Invulnerable(int section)
+    {
+		
+		while (timer < invulnerabilityTime)
+        {
+			if (section == 1)
+            {
+				this.health = 66;
+            } else if (section == 2)
+            {
+				health = 33;
+            }
+			timer += Time.deltaTime;
+		}
+		
+    }
 }
