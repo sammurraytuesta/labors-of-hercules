@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class ShieldPickUp : MonoBehaviour
 {
-    public playerMove player;
+    public Inventory player;
     void Start()
     {
     }
 
     void OnTriggerEnter(Collider col){
 	if(col.CompareTag("Player")){
-		player = col.gameObject.GetComponent<playerMove>();
-		player.hasLionDrop = true;
+		player = col.gameObject.GetComponent<Inventory>();
+		player.SetLionDrop(true);
 		Destroy(gameObject);
 		print("Nemean Hide collected!");
 	}

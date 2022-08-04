@@ -2614,6 +2614,18 @@ MonoBehaviour:
   rootMotion: {x: 0, y: 0, z: 0}
   anim: {fileID: 561699887}
   charCont: {fileID: 561699885}
+--- !u!114 &561699883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561699880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd005fb70f33413d83cd25e0c4907f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!143 &561699885 stripped
 CharacterController:
   m_CorrespondingSourceObject: {fileID: 8948165153134053621, guid: 37c3fd44c08c6422a837e3c13b8505cf, type: 3}

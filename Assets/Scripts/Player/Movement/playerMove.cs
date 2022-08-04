@@ -16,7 +16,6 @@ public class playerMove : MonoBehaviour
     public int health = 100;
     float Xaxis;
     float Yaxis;
-    public bool hasLionDrop = false;
 
     public Vector3 rootMotion;
     public Animator anim;
