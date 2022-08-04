@@ -9,9 +9,6 @@ public class playerMove : MonoBehaviour
     private bool isInAir;
     public float downStep;
     Vector3 velocity;
-    public float moveSpeed = 20f;
-    public float lookSpeed = 20f;
-    public Vector2 rotation = new Vector2(0,0);
     public float airControl;
     public int health = 100;
     float Xaxis;
@@ -21,16 +18,18 @@ public class playerMove : MonoBehaviour
     public Vector3 rootMotion;
     public Animator anim;
     public CharacterController charCont;
-    public CharacterController Controller { get => charCont; set => charCont = value;}
+    public CharacterController Controller { get => charCont; set => charCont = value; }
+
+    int isSprintingParam = Animator.StringToHash("isSprinting");
 
     void Start()
     {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         jmpHt = 3f;
         gravity = 20f;
         downStep = 0.1f;
         airControl = 8f;
-        rotation.y = 180;
-        Cursor.lockState = CursorLockMode.Locked;
         anim = GetComponent<Animator>();
         charCont = GetComponent<CharacterController>();
     }
@@ -38,21 +37,24 @@ public class playerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //mouse looking
+        float mouseInput = Input.GetAxis("Mouse X");
+        Vector3 lookhere = new Vector3(0, mouseInput, 0);
+        transform.Rotate(lookhere);
+      
+
+        //movement
         Xaxis = Input.GetAxis("Horizontal");
         Yaxis = Input.GetAxis("Vertical");
         
         anim.SetFloat("Yaxis", Yaxis*10);
         anim.SetFloat("Xaxis", Xaxis*10);
 
-        Vector3 movement = new Vector3(Xaxis, 0f, Yaxis); //3d space
-        transform.Translate(movement * Time.deltaTime * moveSpeed); //delta smooths move
-
-        rotation.y += Input.GetAxis("Mouse X") * lookSpeed;
-        transform.eulerAngles = rotation;
+        IsSprinting();
   
         if(health>100){
-		    health =100;
-	    }
+		health =100;
+	  }
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Jump();
@@ -88,6 +90,12 @@ public class playerMove : MonoBehaviour
                 velocity.y = 0;
             }
         }
+    }
+
+    void IsSprinting()
+    {
+        bool isSprinting = Input.GetKey(KeyCode.LeftShift);
+        anim.SetBool(isSprintingParam, isSprinting);
     }
 
     void Jump()
