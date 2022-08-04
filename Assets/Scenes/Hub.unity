@@ -2610,7 +2610,6 @@ MonoBehaviour:
   rotation: {x: 0, y: 0}
   airControl: 0
   health: 100
-  hasLionDrop: 0
   rootMotion: {x: 0, y: 0, z: 0}
   anim: {fileID: 561699887}
   charCont: {fileID: 561699885}
@@ -7027,9 +7026,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0df85e5123324ee18b2a8074d211c2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 561699880}
   inventory: {fileID: 904356638}
   inventEnter: {fileID: 500943829}
   inventExit: {fileID: 1113370756}
+  lion: {fileID: 74945821}
+  hydra: {fileID: 1098711927}
   settings: {fileID: 589989018}
   setEnter: {fileID: 375507045}
   setExit: {fileID: 388669263}
