@@ -52,6 +52,11 @@ public class UI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //quest
+        if (Input.GetKeyDown("n"))
+        {
+            quest.active = false;
+        }
         //inventory items
         player = GameObject.FindGameObjectWithTag("Player");
         if (player.GetComponent<Inventory>().HasLionDrop())
@@ -61,11 +66,6 @@ public class UI : MonoBehaviour
         if (player.GetComponent<Inventory>().HasHydraDrop())
         {
             hydra.active = true;
-        }
-        //quest
-        if (Input.GetKeyDown("n"))
-        {
-            quest.active = false;
         }
     }
 
