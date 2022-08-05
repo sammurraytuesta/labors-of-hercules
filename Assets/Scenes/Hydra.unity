@@ -242,6 +242,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a43a0db7f2f4a00916fca56f5dad45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 736705505}
+  hurtAudio: {fileID: 8300000, guid: 9c7e62112de85f1449c9759e6f8a8cda, type: 3}
   health: 0
   player: {fileID: 2020829604}
   rayDistance: 5
@@ -457,6 +459,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4f9fc6200e9848c2863076298e078eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  hurtAudio: {fileID: 0}
   health: 0
   player: {fileID: 2020829604}
   Player: {fileID: 2020829598}
@@ -1273,6 +1277,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4f302cfbb2bb4414b3b1cea8fbb7713, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 736705505}
+  hurtAudio: {fileID: 8300000, guid: 9c7e62112de85f1449c9759e6f8a8cda, type: 3}
   health: 0
   player: {fileID: 0}
   Player: {fileID: 0}
@@ -1649,6 +1655,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a43a0db7f2f4a00916fca56f5dad45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 736705505}
+  hurtAudio: {fileID: 8300000, guid: 9c7e62112de85f1449c9759e6f8a8cda, type: 3}
   health: 0
   player: {fileID: 2020829604}
   rayDistance: 5
@@ -2564,6 +2572,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4f9fc6200e9848c2863076298e078eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  hurtAudio: {fileID: 0}
   health: 0
   player: {fileID: 2020829604}
   Player: {fileID: 2020829598}
@@ -3966,6 +3976,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a43a0db7f2f4a00916fca56f5dad45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 736705505}
+  hurtAudio: {fileID: 8300000, guid: 9c7e62112de85f1449c9759e6f8a8cda, type: 3}
   health: 0
   player: {fileID: 2020829604}
   rayDistance: 5
@@ -4551,6 +4563,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4f9fc6200e9848c2863076298e078eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  hurtAudio: {fileID: 0}
   health: 0
   player: {fileID: 2020829604}
   Player: {fileID: 2020829598}
@@ -6044,6 +6058,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4f9fc6200e9848c2863076298e078eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  hurtAudio: {fileID: 0}
   health: 0
   player: {fileID: 2020829604}
   Player: {fileID: 2020829598}
@@ -7896,6 +7912,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a43a0db7f2f4a00916fca56f5dad45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 736705505}
+  hurtAudio: {fileID: 8300000, guid: 9c7e62112de85f1449c9759e6f8a8cda, type: 3}
   health: 0
   player: {fileID: 2020829604}
   rayDistance: 5
@@ -8102,6 +8120,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4f9fc6200e9848c2863076298e078eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  hurtAudio: {fileID: 0}
   health: 0
   player: {fileID: 2020829604}
   Player: {fileID: 2020829598}
@@ -8421,6 +8441,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4f9fc6200e9848c2863076298e078eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  hurtAudio: {fileID: 0}
   health: 0
   player: {fileID: 2020829604}
   Player: {fileID: 2020829598}
@@ -11327,6 +11349,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4f9fc6200e9848c2863076298e078eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  hurtAudio: {fileID: 0}
   health: 0
   player: {fileID: 2020829604}
   Player: {fileID: 2020829598}
@@ -11625,6 +11649,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a43a0db7f2f4a00916fca56f5dad45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 736705505}
+  hurtAudio: {fileID: 8300000, guid: 9c7e62112de85f1449c9759e6f8a8cda, type: 3}
   health: 0
   player: {fileID: 2020829604}
   rayDistance: 5
@@ -12138,6 +12164,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4f9fc6200e9848c2863076298e078eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  hurtAudio: {fileID: 0}
   health: 0
   player: {fileID: 2020829604}
   Player: {fileID: 2020829598}
@@ -12776,6 +12804,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a43a0db7f2f4a00916fca56f5dad45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 736705505}
+  hurtAudio: {fileID: 8300000, guid: 9c7e62112de85f1449c9759e6f8a8cda, type: 3}
   health: 0
   player: {fileID: 2020829604}
   rayDistance: 5
@@ -13299,6 +13329,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4f9fc6200e9848c2863076298e078eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  hurtAudio: {fileID: 0}
   health: 0
   player: {fileID: 2020829604}
   Player: {fileID: 2020829598}
@@ -13696,6 +13728,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a43a0db7f2f4a00916fca56f5dad45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 736705505}
+  hurtAudio: {fileID: 8300000, guid: 9c7e62112de85f1449c9759e6f8a8cda, type: 3}
   health: 0
   player: {fileID: 2020829604}
   rayDistance: 5
@@ -14160,6 +14194,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4f9fc6200e9848c2863076298e078eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  hurtAudio: {fileID: 0}
   health: 0
   player: {fileID: 2020829604}
   Player: {fileID: 2020829598}
@@ -14544,6 +14580,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4f9fc6200e9848c2863076298e078eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  hurtAudio: {fileID: 0}
   health: 0
   player: {fileID: 2020829604}
   Player: {fileID: 2020829598}

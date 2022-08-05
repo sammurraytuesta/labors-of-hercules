@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.5019536, g: 0.5019536, b: 0.5019536, a: 1}
+  m_IndirectSpecularColor: {r: 0.13011864, g: 0.094576456, b: 0.12463661, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2060,7 +2060,6 @@ GameObject:
   - component: {fileID: 229655969}
   - component: {fileID: 229655968}
   - component: {fileID: 229655967}
-  - component: {fileID: 229655970}
   m_Layer: 0
   m_Name: attack help trigger
   m_TagString: Untagged
@@ -2108,20 +2107,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &229655970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 229655966}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2722c6d1c42cc4ec5872f507968cb47b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioSource: {fileID: 1608708083}
-  battleMusic: {fileID: 8300000, guid: 9fae13eb8238e9f46aec61281ca0a42c, type: 3}
 --- !u!1 &231180530
 GameObject:
   m_ObjectHideFlags: 0
@@ -5186,6 +5171,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a43a0db7f2f4a00916fca56f5dad45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 1778249063}
+  hurtAudio: {fileID: 8300000, guid: 9c7e62112de85f1449c9759e6f8a8cda, type: 3}
   health: 0
   player: {fileID: 1488836343}
   rayDistance: 5
@@ -7454,6 +7441,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a43a0db7f2f4a00916fca56f5dad45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 1778249063}
+  hurtAudio: {fileID: 8300000, guid: 9c7e62112de85f1449c9759e6f8a8cda, type: 3}
   health: 0
   player: {fileID: 1488836343}
   rayDistance: 5
@@ -9380,6 +9369,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a43a0db7f2f4a00916fca56f5dad45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 1778249063}
+  hurtAudio: {fileID: 8300000, guid: 9c7e62112de85f1449c9759e6f8a8cda, type: 3}
   health: 0
   player: {fileID: 1488836343}
   rayDistance: 5
@@ -9924,6 +9915,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a43a0db7f2f4a00916fca56f5dad45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 1778249063}
+  hurtAudio: {fileID: 8300000, guid: 9c7e62112de85f1449c9759e6f8a8cda, type: 3}
   health: 0
   player: {fileID: 1488836343}
   rayDistance: 5
@@ -12741,6 +12734,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a43a0db7f2f4a00916fca56f5dad45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 1778249063}
+  hurtAudio: {fileID: 8300000, guid: 9c7e62112de85f1449c9759e6f8a8cda, type: 3}
   health: 0
   player: {fileID: 1488836343}
   rayDistance: 5
@@ -13921,6 +13916,7 @@ GameObject:
   - component: {fileID: 2065343231}
   - component: {fileID: 2065343230}
   - component: {fileID: 2065343229}
+  - component: {fileID: 2065343232}
   m_Layer: 0
   m_Name: Tiger Help Trigger
   m_TagString: Untagged
@@ -13968,6 +13964,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2065343232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065343228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2722c6d1c42cc4ec5872f507968cb47b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 1608708083}
+  battleMusic: {fileID: 8300000, guid: 9fae13eb8238e9f46aec61281ca0a42c, type: 3}
 --- !u!1001 &2078251740
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14157,6 +14167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a107262e5a2c449b89e02b40464faab9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 1778249063}
+  hurtAudio: {fileID: 8300000, guid: 9c7e62112de85f1449c9759e6f8a8cda, type: 3}
   health: 0
   pointOne: {fileID: 771932562}
   pointTwo: {fileID: 501616928}
@@ -14426,6 +14438,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a43a0db7f2f4a00916fca56f5dad45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 1778249063}
+  hurtAudio: {fileID: 8300000, guid: 9c7e62112de85f1449c9759e6f8a8cda, type: 3}
   health: 0
   player: {fileID: 1488836343}
   rayDistance: 5

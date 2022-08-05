@@ -81,9 +81,11 @@ public class FoxAI : EnemyScript
 		anim.SetTrigger("Paw Attack");
 		player.health -= Random.Range(4,9);
 	}
-    }
+		HurtSound();
 
-    void Die(){
+	}
+
+	void Die(){
 	Destroy(this.gameObject);
 	player.health += Random.Range(10, 16);
     }

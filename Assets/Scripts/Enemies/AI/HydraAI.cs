@@ -92,7 +92,9 @@ public class HydraAI : EnemyScript
 		print(dealDamage[headHit%4]);
 		anim.SetTrigger("attack1");
 		player.health -= dealDamage[headHit%4];
-		headHit++;
+			HurtSound();
+
+			headHit++;
 		if(headHit == 4){
 			isPoison = true;
 			poisonTimer = 3f;

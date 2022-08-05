@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
+    public AudioSource audioSource;
+    public AudioClip hurtAudio;
     public float health;
     // Start is called before the first frame update
     protected virtual void Start()
@@ -18,5 +20,11 @@ public class EnemyScript : MonoBehaviour
         {
             //Destroy(this.gameObject);
         }
+    }
+
+    protected void HurtSound()
+    {
+        audioSource.clip = hurtAudio;
+        audioSource.Play();
     }
 }
