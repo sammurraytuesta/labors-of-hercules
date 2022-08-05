@@ -6,6 +6,9 @@ using UnityEngine.UI;
 public class UI : MonoBehaviour
 {
     public GameObject player;
+    //health display
+    public Text health;
+    private int healthNum;
     //inventory load
     public GameObject inventory;
     public Button inventEnter;
@@ -52,6 +55,10 @@ public class UI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
+        //health 
+        healthNum = player.GetComponent<playerMoveHub>().health;
+        health.text = healthNum.ToString();
         //quest
         if (Input.GetKeyDown("n"))
         {
