@@ -88,6 +88,7 @@ public class LionAI : EnemyScript
 	attackCoolDown = 5;
 	anim.SetTrigger("attack");
 	player.health -= Random.Range(10,21);
+		HurtSound();
     }
   
     void Run(Transform nextPoint){

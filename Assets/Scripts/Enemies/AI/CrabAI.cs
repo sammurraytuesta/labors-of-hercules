@@ -59,9 +59,11 @@ public class CrabAI : EnemyScript
 	attackCoolDown = 2;
 	anim.SetTrigger("attack");
 	player.health -= Random.Range(2,7);
-    }
+		HurtSound();
 
-    void Die(){
+	}
+
+	void Die(){
 	player.health += Random.Range(10, 16);
 	int respawnPercent = Random.Range(1,6);
 	if(respawnPercent == 2){
