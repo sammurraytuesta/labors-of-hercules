@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class playerMoveHub : MonoBehaviour
 {
+    public GameObject player;
+
     public float jmpHt;
     public float gravity;
     private bool isInAir;

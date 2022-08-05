@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UI : MonoBehaviour
+public class UIHub : MonoBehaviour
 {
     public GameObject player;
     //health display
@@ -57,7 +57,7 @@ public class UI : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player");
         //health 
-        healthNum = player.GetComponent<playerMove>().health;
+        healthNum = player.GetComponent<playerMoveHub>().health;
         health.text = healthNum.ToString();
         //quest
         if (Input.GetKeyDown("n"))
