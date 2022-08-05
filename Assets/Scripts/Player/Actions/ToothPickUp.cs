@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class ToothPickUp : MonoBehaviour
 {
@@ -15,6 +17,8 @@ public class ToothPickUp : MonoBehaviour
 		player.SetHydraDrop(true);
 		Destroy(gameObject);
 		print("Hydra Poison collected!");
-	}
+        SceneManager.LoadScene("Assets/Scenes/Hub.unity");
+
+        }
     }
 }
