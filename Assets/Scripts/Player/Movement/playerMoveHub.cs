@@ -21,6 +21,8 @@ public class playerMoveHub : MonoBehaviour
     public Animator anim;
     public CharacterController charCont;
     public CharacterController Controller { get => charCont; set => charCont = value;}
+    public AudioSource audioSource;
+    public AudioClip jumpAudio;
 
     int isSprintingParam = Animator.StringToHash("isSprinting");
 
@@ -103,6 +105,10 @@ public class playerMoveHub : MonoBehaviour
     {
         if (!isInAir)
         {
+            audioSource.clip = jumpAudio;
+            audioSource.volume = 0.5f;
+            audioSource.Play();
+            
             isInAir = true;
             velocity = anim.velocity;
             velocity.y += Mathf.Sqrt(2 * gravity * jmpHt);

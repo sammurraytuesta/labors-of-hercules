@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class UI : MonoBehaviour
 {
     public GameObject player;
+    public GameObject ui;
     //inventory load
     public GameObject inventory;
     public Button inventEnter;
@@ -13,6 +14,9 @@ public class UI : MonoBehaviour
     //inventory items
     public GameObject lion;
     public GameObject hydra;
+    //quest load
+    public GameObject quest;
+    public Button questEnter;
     //settings load
     public GameObject settings;
     public Button setEnter;
@@ -31,6 +35,10 @@ public class UI : MonoBehaviour
         //inventory items
         lion.active = false;
         hydra.active = false;
+
+        //quest
+        Button questEnterBtn = questEnter.GetComponent<Button>();
+		questEnterBtn.onClick.AddListener(QuestEnter);
 
         //settings
         settings.active = false;
@@ -68,6 +76,13 @@ public class UI : MonoBehaviour
         inventory.active = false;
         Cursor.visible = false;
         Time.timeScale = 1;
+    }
+
+    //quest
+    void QuestEnter()
+    {
+        ui.active = false;
+        quest.active = true;
     }
 
     //settings
