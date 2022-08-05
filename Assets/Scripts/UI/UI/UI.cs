@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class UI : MonoBehaviour
 {
     public GameObject player;
-    public GameObject ui;
     //inventory load
     public GameObject inventory;
     public Button inventEnter;
@@ -37,6 +36,7 @@ public class UI : MonoBehaviour
         hydra.active = false;
 
         //quest
+        quest.active = false;
         Button questEnterBtn = questEnter.GetComponent<Button>();
 		questEnterBtn.onClick.AddListener(QuestEnter);
 
@@ -62,6 +62,11 @@ public class UI : MonoBehaviour
         {
             hydra.active = true;
         }
+        //quest
+        if (Input.GetKeyDown("n"))
+        {
+            quest.active = false;
+        }
     }
 
     //inventory
@@ -81,7 +86,6 @@ public class UI : MonoBehaviour
     //quest
     void QuestEnter()
     {
-        ui.active = false;
         quest.active = true;
     }
 
