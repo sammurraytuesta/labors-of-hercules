@@ -243,7 +243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  player: {fileID: 0}
+  player: {fileID: 2020829604}
   rayDistance: 5
   wanderRadius: 4
 --- !u!136 &21411917
@@ -454,9 +454,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 43687819}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 148f735977ff948469f7f4491da26d4f, type: 3}
+  m_Script: {fileID: 11500000, guid: d4f9fc6200e9848c2863076298e078eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
+  player: {fileID: 2020829604}
+  Player: {fileID: 2020829598}
+  rayDistance: 15
+  FullCrabPrefab: {fileID: 6456083365057731942, guid: aa5a798f266fdde43b5dd0273b71fa38, type: 3}
 --- !u!195 &43687822
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1645,7 +1650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  player: {fileID: 0}
+  player: {fileID: 2020829604}
   rayDistance: 5
   wanderRadius: 4
 --- !u!136 &231983811
@@ -2556,9 +2561,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 413366192}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 148f735977ff948469f7f4491da26d4f, type: 3}
+  m_Script: {fileID: 11500000, guid: d4f9fc6200e9848c2863076298e078eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
+  player: {fileID: 2020829604}
+  Player: {fileID: 2020829598}
+  rayDistance: 15
+  FullCrabPrefab: {fileID: 6456083365057731942, guid: aa5a798f266fdde43b5dd0273b71fa38, type: 3}
 --- !u!195 &413366195
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -3830,7 +3840,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  player: {fileID: 0}
+  player: {fileID: 2020829604}
   rayDistance: 5
   wanderRadius: 4
 --- !u!136 &594643035
@@ -4411,9 +4421,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 679143062}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 148f735977ff948469f7f4491da26d4f, type: 3}
+  m_Script: {fileID: 11500000, guid: d4f9fc6200e9848c2863076298e078eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
+  player: {fileID: 2020829604}
+  Player: {fileID: 2020829598}
+  rayDistance: 15
+  FullCrabPrefab: {fileID: 6456083365057731942, guid: aa5a798f266fdde43b5dd0273b71fa38, type: 3}
 --- !u!195 &679143065
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5899,9 +5914,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 992185454}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 148f735977ff948469f7f4491da26d4f, type: 3}
+  m_Script: {fileID: 11500000, guid: d4f9fc6200e9848c2863076298e078eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
+  player: {fileID: 2020829604}
+  Player: {fileID: 2020829598}
+  rayDistance: 15
+  FullCrabPrefab: {fileID: 6456083365057731942, guid: aa5a798f266fdde43b5dd0273b71fa38, type: 3}
 --- !u!195 &992185457
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -7750,7 +7770,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  player: {fileID: 0}
+  player: {fileID: 2020829604}
   rayDistance: 5
   wanderRadius: 4
 --- !u!136 &1196350464
@@ -7952,9 +7972,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1213816463}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 148f735977ff948469f7f4491da26d4f, type: 3}
+  m_Script: {fileID: 11500000, guid: d4f9fc6200e9848c2863076298e078eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
+  player: {fileID: 2020829604}
+  Player: {fileID: 2020829598}
+  rayDistance: 15
+  FullCrabPrefab: {fileID: 6456083365057731942, guid: aa5a798f266fdde43b5dd0273b71fa38, type: 3}
 --- !u!195 &1213816466
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -8266,9 +8291,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1273487939}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 148f735977ff948469f7f4491da26d4f, type: 3}
+  m_Script: {fileID: 11500000, guid: d4f9fc6200e9848c2863076298e078eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
+  player: {fileID: 2020829604}
+  Player: {fileID: 2020829598}
+  rayDistance: 15
+  FullCrabPrefab: {fileID: 6456083365057731942, guid: aa5a798f266fdde43b5dd0273b71fa38, type: 3}
 --- !u!195 &1273487942
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -11152,9 +11182,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1706346448}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 148f735977ff948469f7f4491da26d4f, type: 3}
+  m_Script: {fileID: 11500000, guid: d4f9fc6200e9848c2863076298e078eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
+  player: {fileID: 2020829604}
+  Player: {fileID: 2020829598}
+  rayDistance: 15
+  FullCrabPrefab: {fileID: 6456083365057731942, guid: aa5a798f266fdde43b5dd0273b71fa38, type: 3}
 --- !u!195 &1706346451
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -11449,7 +11484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  player: {fileID: 0}
+  player: {fileID: 2020829604}
   rayDistance: 5
   wanderRadius: 4
 --- !u!136 &1746403409
@@ -11958,9 +11993,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1815866550}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 148f735977ff948469f7f4491da26d4f, type: 3}
+  m_Script: {fileID: 11500000, guid: d4f9fc6200e9848c2863076298e078eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
+  player: {fileID: 2020829604}
+  Player: {fileID: 2020829598}
+  rayDistance: 15
+  FullCrabPrefab: {fileID: 6456083365057731942, guid: aa5a798f266fdde43b5dd0273b71fa38, type: 3}
 --- !u!64 &1815866557
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12595,7 +12635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  player: {fileID: 0}
+  player: {fileID: 2020829604}
   rayDistance: 5
   wanderRadius: 4
 --- !u!136 &1925743068
@@ -13114,9 +13154,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2005839390}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 148f735977ff948469f7f4491da26d4f, type: 3}
+  m_Script: {fileID: 11500000, guid: d4f9fc6200e9848c2863076298e078eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
+  player: {fileID: 2020829604}
+  Player: {fileID: 2020829598}
+  rayDistance: 15
+  FullCrabPrefab: {fileID: 6456083365057731942, guid: aa5a798f266fdde43b5dd0273b71fa38, type: 3}
 --- !u!195 &2005839393
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -13510,7 +13555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  player: {fileID: 0}
+  player: {fileID: 2020829604}
   rayDistance: 5
   wanderRadius: 4
 --- !u!136 &2015148225
@@ -13970,9 +14015,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2086421714}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 148f735977ff948469f7f4491da26d4f, type: 3}
+  m_Script: {fileID: 11500000, guid: d4f9fc6200e9848c2863076298e078eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
+  player: {fileID: 2020829604}
+  Player: {fileID: 2020829598}
+  rayDistance: 15
+  FullCrabPrefab: {fileID: 6456083365057731942, guid: aa5a798f266fdde43b5dd0273b71fa38, type: 3}
 --- !u!195 &2086421717
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -14349,9 +14399,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2117610767}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 148f735977ff948469f7f4491da26d4f, type: 3}
+  m_Script: {fileID: 11500000, guid: d4f9fc6200e9848c2863076298e078eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
+  player: {fileID: 2020829604}
+  Player: {fileID: 2020829598}
+  rayDistance: 15
+  FullCrabPrefab: {fileID: 6456083365057731942, guid: aa5a798f266fdde43b5dd0273b71fa38, type: 3}
 --- !u!195 &2117610770
 NavMeshAgent:
   m_ObjectHideFlags: 0
