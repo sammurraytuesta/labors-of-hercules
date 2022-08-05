@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class ShieldPickUp : MonoBehaviour
 {
@@ -15,6 +17,7 @@ public class ShieldPickUp : MonoBehaviour
 		player.SetLionDrop(true);
 		Destroy(gameObject);
 		print("Nemean Hide collected!");
-	}
+        SceneManager.LoadScene("Assets/Scenes/Hub.unity");
+        }
     }
 }
