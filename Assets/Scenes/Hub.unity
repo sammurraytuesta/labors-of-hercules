@@ -4762,6 +4762,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8948165153134053620, guid: 576d12df64b2f4f90b8ad40e47fac874, type: 3}
   m_PrefabInstance: {fileID: 1172087318}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1172087320 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8948165153134053625, guid: 576d12df64b2f4f90b8ad40e47fac874, type: 3}
+  m_PrefabInstance: {fileID: 1172087318}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1172087321 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8948165153901076052, guid: 576d12df64b2f4f90b8ad40e47fac874, type: 3}
@@ -5882,7 +5887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b834ba9e6313749249e166f1fe64bf4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1172087320}
   respawnPoint: {fileID: 1991211909}
 --- !u!1 &1473725222
 GameObject:
