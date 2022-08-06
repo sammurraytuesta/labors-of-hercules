@@ -16,10 +16,7 @@ public class MainMenu : MonoBehaviour
 
 	void TaskOnClick(){
 		player = GameObject.FindGameObjectWithTag("Player");
-
-        if (!player.GetComponent<Inventory>().HasHydraDrop() && !player.GetComponent<Inventory>().HasLionDrop())
-        {
-            SceneManager.LoadScene("Assets/Scenes/Hub.unity");
-        }
+		
+		SceneManager.LoadScene("Assets/Scenes/Hub.unity");
 	}
 }
