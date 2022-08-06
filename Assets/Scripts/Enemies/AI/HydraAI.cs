@@ -126,6 +126,7 @@ public class HydraAI : EnemyScript
 
     IEnumerator poison(){
 	player.health -= Random.Range(1, 4);
+	print("You've been poisoned!");
 	isPoison=false;
 	yield return new WaitForSeconds(.5f);
 	isPoison=true;
