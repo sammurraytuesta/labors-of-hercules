@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    private bool hasLionDrop = false;
-    private bool hasHydraDrop = false;
+    static private bool hasLionDrop = false;
+    static private bool hasHydraDrop = false;
 
     //lion
     public bool HasLionDrop()
