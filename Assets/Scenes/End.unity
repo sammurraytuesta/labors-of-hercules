@@ -675,6 +675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startButton: {fileID: 354660018}
+  player: {fileID: 8948165153134053620, guid: 576d12df64b2f4f90b8ad40e47fac874, type: 3}
 --- !u!114 &1058802138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -774,8 +775,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d4a9c29667fb4b158414278efde138a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startButton: {fileID: 0}
-  player: {fileID: 0}
+  startButton: {fileID: 354660018}
+  player: {fileID: 8948165153134053620, guid: 576d12df64b2f4f90b8ad40e47fac874, type: 3}
 --- !u!1 &1189273580
 GameObject:
   m_ObjectHideFlags: 0
