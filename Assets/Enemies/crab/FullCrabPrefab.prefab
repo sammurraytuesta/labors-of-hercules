@@ -23,7 +23,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8374882560743002031}
-  - component: {fileID: 1322268240912554855}
   - component: {fileID: -7699122943846124346}
   - component: {fileID: -6163721079673546861}
   - component: {fileID: -6206670422936251871}
@@ -49,23 +48,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1322268240912554855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6456083365057731942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 148f735977ff948469f7f4491da26d4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 0
-  player: {fileID: 0}
-  Player: {fileID: 0}
-  rayDistance: 10
-  FullCrabPrefab: {fileID: 6456083365057731942}
 --- !u!64 &-7699122943846124346
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -130,14 +112,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7196953036794078858}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 148f735977ff948469f7f4491da26d4f, type: 3}
+  m_Script: {fileID: 11500000, guid: d4f9fc6200e9848c2863076298e078eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  hurtAudio: {fileID: 0}
   health: 0
   player: {fileID: 0}
   Player: {fileID: 0}
-  rayDistance: 10
-  FullCrabPrefab: {fileID: 0}
+  rayDistance: 15
+  FullCrabPrefab: {fileID: 6456083365057731942}
 --- !u!195 &8007927310395808733
 NavMeshAgent:
   m_ObjectHideFlags: 0

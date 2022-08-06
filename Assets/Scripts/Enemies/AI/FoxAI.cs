@@ -49,14 +49,18 @@ public class FoxAI : EnemyScript
 						Attack();
 					}else if(hit.distance<3){
 						navAgent.destination = player.Controller.transform.position;
-					}
+						anim.SetFloat("Speed", 3);
+						}
 				}else{
 					if(timer >= wanderTime){
 						Vector3 wanderPos = Wander(transform.position, wanderRadius, -1);
-						anim.SetFloat("Speed", speed);
+						anim.SetFloat("Speed", 3);
 						navAgent.SetDestination(wanderPos);
 						timer = 0;
-					}
+					}if(navAgent.remainingDistance < .1f)
+                        {
+							anim.SetFloat("Speed", 0);
+                        }
 				}
 			}
 		}	

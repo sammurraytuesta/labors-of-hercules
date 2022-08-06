@@ -25,7 +25,6 @@ public class CrabAI : EnemyScript
 	health = 30f;
 	Player = GameObject.FindGameObjectWithTag("Player");
 	player = Player.GetComponent<playerMove>();
-		FullCrabPrefab = GameObject.Find("FullCrabPrefab");
     }
 
     void FixedUpdate()
@@ -69,8 +68,10 @@ public class CrabAI : EnemyScript
 	if(respawnPercent == 2){
 		GameObject crab1 = Instantiate(FullCrabPrefab, transform.position + new Vector3(3f, 0f, 0f), transform.rotation);
 		GameObject crab2 = Instantiate(FullCrabPrefab, transform.position + new Vector3(-3f, 0f, 0f), transform.rotation);
-		crab1.GetComponent<CrabAI>().player = player;
-		crab2.GetComponent<CrabAI>().player = player;
+		crab1.AddComponent<CrabAI>();
+		crab2.AddComponent<CrabAI>();
+		//crab1.GetComponent<CrabAI>().player = player;
+		//crab2.GetComponent<CrabAI>().player = player;
 	}
 	Destroy(this.gameObject);
     }
