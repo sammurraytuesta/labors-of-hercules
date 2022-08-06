@@ -25,6 +25,7 @@ public class CrabAI : EnemyScript
 	health = 30f;
 	Player = GameObject.FindGameObjectWithTag("Player");
 	player = Player.GetComponent<playerMove>();
+		FullCrabPrefab = GameObject.Find("FullCrabPrefab");
     }
 
     void FixedUpdate()
@@ -59,7 +60,6 @@ public class CrabAI : EnemyScript
 	attackCoolDown = 2;
 	anim.SetTrigger("attack");
 	player.health -= Random.Range(2,7);
-		HurtSound();
 
 	}
 
