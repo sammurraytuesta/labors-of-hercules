@@ -11,10 +11,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Hydra.unity
     guid: 2e4e6c26d3d26418d90df962e0981ae7
-  - enabled: 1
-    path: Assets/Scenes/LionCave.unity
-    guid: 29d02717e0d0643cc89685e5582bfbe5
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Start.unity
     guid: 7e99e59441046407aa4c2bc8d424b6f1
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: 578c5a1b3483e474c9f5393bb83d13f7
+  - enabled: 1
+    path: Assets/Scenes/LionCave.unity
+    guid: 5725e0ba70c964b09bc3a3bbb5ffd810
+  - enabled: 1
+    path: Assets/Scenes/Retry.unity
+    guid: fb50b41e6e7174da0a0b993284b39b3e
   m_configObjects: {}
