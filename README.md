@@ -11,7 +11,33 @@ A 3D video game created in C# and Unity utilizing built-in renderers to create a
     <li>
       <a href="#Game-Design">Game Design</a>
       <ul>
-        <li><a href="#Levels">Levels</a></li>
+        <li>
+          <a href="#Main-Character">Main Character</a>
+          <ul>
+            <li><a href="#Model">Model</a></li>
+            <li><a href="#Animations">Animations</a></li>
+            <li><a href="#Control-Scheme">Control Scheme</a></li>
+            <li><a href="#Player-Rewards">Player Rewards</a></li>
+          </ul>
+         </li>
+        <li><a href="#Level-Design">Level Design</a></li>
+        <li>
+          <a href="#Antagonistic-Elements">Antagonistic Elements</a>
+          <ul>
+            <li><a href="#Lion">Lion</a></li>
+            <li><a href="#Foxes">Foxes</a></li>
+            <li><a href="#Hydra">Hydra</a></li>
+            <li><a href="#Crabs">Crabs</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="#Game-Play">Game Play</a>
+      <ul>
+        <li><a href="#Hub">Hub</a></li>
+        <li><a href="#Lion-Cave">Lion Cave</a></li>
+        <li><a href="#Hydra-Arena">Hydra Arena</a></li>
       </ul>
     </li>
     <li><a href="#Contributors</a>Contributors</li>
@@ -23,14 +49,37 @@ Imagine you are Hercules in ancient Greece. You are tasked with the infamous 12 
 
 ## Game Design
 
-### Levels
+### Main Character
+
+#### Model 
+#### Animations
+#### Control Scheme
+#### Player Rewards
+
+### Level Design
+### Antagonistic Elements
+
+#### Lion
+#### Foxes
+#### Hydra
+#### Crabs
+
+## Game Play
+
+### Hub
 
 <img width="500px" src="Assets/Images/hub-final.png">
 <img width="500px" src="Assets/Images/hub-pov-1.png">
 <img width="500px" src="Assets/Images/hub-pov-2.png">
+
+### Lion Cave
+
 <img width="500px" src="Assets/Images/lion-level.png">
 <img width="500px" src="Assets/Images/lion-level-parkour.png">
 <img width="500px" src="Assets/Images/lion-level-cave.png">
+
+### Hydra Arena
+
 <img width="500px" src="Assets/Images/hydra-level.png">
 <img width="500px" src="Assets/Images/hydra-level-arena-outside.png">
 <img width="500px" src="Assets/Images/hydra-level-arena-inside.png">
