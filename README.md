@@ -20,6 +20,15 @@ A 3D video game created in C# and Unity utilizing built-in renderers to create a
             <li><a href="#Player-Rewards">Player Rewards</a></li>
           </ul>
          </li>
+        <li>
+          <a href="#User-Interface">User Interface</a>
+          <ul>
+            <li><a href="#Main-UI">Main UI</a></li>
+            <li><a href="#Settings">Settings</a></li>
+            <li><a href="#Items">Items</a></li>
+            <li><a href="#Quest">Quest</a></li>
+          </ul>
+        </li>
         <li><a href="#Level-Design">Level Design</a></li>
         <li>
           <a href="#Antagonistic-Elements">Antagonistic Elements</a>
@@ -62,6 +71,21 @@ Imagine you are Hercules in ancient Greece. You are tasked with the infamous 12 
 #### Player Rewards
 
 
+### User Interface
+
+#### Main UI
+<img width="500px" src="Assets/Images/hub-pov-2.png">
+
+#### Settings
+<img width="500px" src="Assets/Images/settings.png">
+
+#### Items
+<img width="500px" src="Assets/Images/items.png">
+
+#### Quest
+<img width="500px" src="Assets/Images/quest.png">
+
+
 ### Level Design
 
 
@@ -86,8 +110,6 @@ Imagine you are Hercules in ancient Greece. You are tasked with the infamous 12 
 ### Hub
 
 <img width="500px" src="Assets/Images/hub-final.png">
-<img width="500px" src="Assets/Images/hub-pov-1.png">
-<img width="500px" src="Assets/Images/hub-pov-2.png">
 
 ### Lion Cave
 
