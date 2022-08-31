@@ -49,7 +49,7 @@ A 3D video game created in C# and Unity utilizing built-in renderers to create a
         <li><a href="#Hydra-Arena">Hydra Arena</a></li>
       </ul>
     </li>
-    <li><a href="#Contributors</a>Contributors</li>
+    <li><a href="#Contributors">Contributors</a></li>
     <li><a href="#Thank-You">Thank You!</a></li>
 </details>
 
