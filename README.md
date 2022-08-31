@@ -4,29 +4,27 @@ A 3D video game created in C# and Unity utilizing built-in renderers to create a
 [![made-with-csharp](https://img.shields.io/badge/Made%20with-C%20Sharp-1f425f.svg)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/) [![made-with-Unity](https://img.shields.io/badge/Made%20with-Unity-1f425f.svg)](https://shields.io/) [![macOS](https://svgshare.com/i/ZjP.svg)](https://svgshare.com/i/ZjP.svg) [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com/sammurraytuesta)
 
 <!-- TABLE OF CONTENTS -->
-<!-- <details>
+<details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#Program-Specification">Program Specification</a></li>
+    <li><a href="#Overview">Overview</a></li>
     <li>
-      <a href="#Sample-Invocation">Sample Invocation</a>
+      <a href="#Game-Design">Game Design</a>
       <ul>
-        <li><a href="#help">!help</a></li>
-        <li><a href="#pete">!pete</a></li>
+        <li><a href="#Levels">Levels</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#Add-Pete-to-Your-Server">Add Pete to Your Server!</a>
-      <ul>
-        <li><a href="#Permissions">Permissions</a></li>
-      </ul>
-    </li>
-    <li><a href="#Topgg">Top.gg</a></li>
-    <li><a href="#Questions-or-Ideas">Questions or Ideas</a></li>
+    <li><a href="#Contributors</a>Contributors</li>
     <li><a href="#Thank-You">Thank You!</a></li>
-</details> -->
+</details>
 
 ## Overview
+Imagine you are Hercules in ancient Greece. You are tasked with the infamous 12 trials. Perform heroic deeds, experience ancient Greece, and prevail over the terrifying monsters to save the day!
+
+## Game Design
+
+### Levels
+
 <img width="500px" src="Assets/Images/hub-final.png">
 <img width="500px" src="Assets/Images/hub-pov-1.png">
 <img width="500px" src="Assets/Images/hub-pov-2.png">
@@ -41,3 +39,6 @@ A 3D video game created in C# and Unity utilizing built-in renderers to create a
 | <img src="https://avatars.githubusercontent.com/u/60449164?v=4" width="100px;"/> | <img src="https://avatars.githubusercontent.com/u/72932232?v=4" width="100px;"/> | <img src="https://avatars.githubusercontent.com/u/43653383?v=4" width="100px;"/> |
 |     :---:      |     :---:      |     :---:      |
 | Samantha Murray       | Ryan Turner       | Taryn Barnes       |
+
+## Thank You!
+Thank you for checking out our game!
