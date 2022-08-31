@@ -49,20 +49,37 @@ Imagine you are Hercules in ancient Greece. You are tasked with the infamous 12 
 
 ## Game Design
 
+
 ### Main Character
 
 #### Model 
+<img width="500px" src="Assets/Images/tiny-hero.png">
+
 #### Animations
+
 #### Control Scheme
+
 #### Player Rewards
 
+
 ### Level Design
+
+
 ### Antagonistic Elements
 
 #### Lion
+<img width="500px" src="Assets/Images/lion.png">
+
 #### Foxes
+<img width="500px" src="Assets/Images/fox.png">
+
 #### Hydra
+<img width="500px" src="Assets/Images/hydra.png">
+
 #### Crabs
+<img width="500px" src="Assets/Images/crab.png">
+
+
 
 ## Game Play
 
