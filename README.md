@@ -203,9 +203,7 @@ The Hydra Arena is the second active level in the game in which you must enter t
 ## Contributors
 Group members who contributed to this project as part of a game development course at Western Washington University.
 
-| <img src="https://avatars.githubusercontent.com/u/60449164?v=4" width="100px;"/> | <img src="https://avatars.githubusercontent.com/u/72932232?v=4" width="100px;"/> | <img src="https://avatars.githubusercontent.com/u/43653383?v=4" width="100px;"/> |
-|     :---:      |     :---:      |     :---:      |
-| Samantha Murray       | Ryan Turner       | Taryn Barnes       |
+![GitHub Contributors Image](https://contrib.rocks/image?repo=sammurraytuesta/labors-of-hercules)
 
 ## Thank You!
 Thank you for checking out our game!
