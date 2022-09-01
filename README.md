@@ -174,23 +174,35 @@ The Lion Cave is the first active level in the game in which you find yourself f
 
 <img width="500px" src="Assets/Images/lion-level.png">
   
-*Forest: battle foxes to practice and gain health before the main boss–the lion*
+*Forest: battle foxes to practice and gain health before the main boss–the lion.*
   
 <img width="500px" src="Assets/Images/lion-level-parkour.png">
   
-*Parkour: use pillars and other objects in the water to make it across the river toward the lion cave*
+*Parkour: use pillars and other objects in the water to make it across the river toward the lion cave.*
   
 <img width="500px" src="Assets/Images/lion-level-cave.png">
   
 *Cave: the final phase of the level where the final showdown with the lion will occur. Will you be victorious?*
 
 ### Hydra Arena
+The Hydra Arena is the second active level in the game in which you must enter the arena to face the hydra! The hydra level includes waves of crab minions within the boss fight that can double by chance while fighting the hydra. Crabs also drop health but be careful...the hydra has way more hp than the lion (See below for images).
 
 <img width="500px" src="Assets/Images/hydra-level.png">
+  
+*Terrain: walk along the path and battle some more foxes for ny needed health before battling the hydra!*
+
 <img width="500px" src="Assets/Images/hydra-level-arena-outside.png">
+  
+*Arena: a bird's eye view of the arena and the boss within.*
+  
 <img width="500px" src="Assets/Images/hydra-level-arena-inside.png">
+  
+*Hydra: the hydra awaits as you enter the arena. Will you be victorious?*
+
 
 ## Contributors
+Group members who contributed to this project as part of a game development course at Western Washington University.
+
 | <img src="https://avatars.githubusercontent.com/u/60449164?v=4" width="100px;"/> | <img src="https://avatars.githubusercontent.com/u/72932232?v=4" width="100px;"/> | <img src="https://avatars.githubusercontent.com/u/43653383?v=4" width="100px;"/> |
 |     :---:      |     :---:      |     :---:      |
 | Samantha Murray       | Ryan Turner       | Taryn Barnes       |
