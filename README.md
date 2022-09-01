@@ -54,14 +54,19 @@ A 3D video game created in C# and Unity utilizing built-in renderers to create a
 </details>
 
 ## Overview
-Imagine you are Hercules in ancient Greece. You are tasked with the infamous 12 trials. Perform heroic deeds, experience ancient Greece, and prevail over the terrifying monsters to save the day!
+> Imagine you are Hercules in ancient Greece. You are tasked with the infamous 12 trials. Perform heroic deeds, experience ancient Greece, and prevail over the terrifying monsters to save the day!
 
 ## Game Design
-
+All 3D and 2D game elements rendered using models and prefabs free from the <a href="https://assetstore.unity.com/">Unity Asset Store</a>.
 
 ### Main Character
-
+Play as Hercules–the ancient mythological hero–and complete the 12 labors. Hercules can fight enemies with the use of his sword and collect rewards that help aid him in his journey!
+  
 #### Model 
+RPG Tiny Hero Duo model for male hero used for Hercules in game play.
+  
+(See below for image)
+  
 <img width="500px" src="Assets/Images/tiny-hero.png">
 
 #### Animations
