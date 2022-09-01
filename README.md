@@ -71,12 +71,12 @@ RPG Tiny Hero Duo model for male hero rendered in low poly used for Hercules in 
 Character animations for Hercules include walk, run, jump, idle, and attack. Note: Enemies in the game are equipped with the same animations however, their attack sequences may differ depending on type of enemy or point in combat. 
 
 #### Control Scheme
-- [W][A][S][D] - Move up, left, down, right
-- [Space] - Jump
-- [Shift] - Sprint
-- [Left Mouse Click] - Attack
-- [N] - Next Instruction (when prompted)
-- [ESC] + [Left Mouse Click] - Interact with UI
+- **[W][A][S][D]** - Move up, left, down, right
+- **[Space]** - Jump
+- **[Shift]** - Sprint
+- **[Left Mouse Click]** - Attack
+- **[N]** - Next Instruction (when prompted)
+- **[ESC] + [Left Mouse Click]** - Interact with UI
 
 
 #### Player Rewards
@@ -108,20 +108,44 @@ Your quest can be accessed in the bottom left corner of the screen next to the o
 
 
 ### Level Design
-
+- **Hub** - Takes inspiration from both Greek and Roman architecture in its assets using Greek and Roman low poly lite packs. The Hub is the first place the player is introduced to and is the gateway to all levels.
+- **Lion Cave** - Forrest setting in which the player is tasked with learning how to fight (against foxes spread throughout the level) and parkour in order to chase down and defeat the lion in its cave.
+- **Hydra Arena** - Arena setting in which the player enters the arena to be met with the Hydra–a stationary boss with crab minions that chase you throughout.
 
 ### Antagonistic Elements
+- **Parkour** - In between levels there will be pillars or boxes to jump on to get across rivers as an additive to make the game a bit more interesting and interactive.
+- **Bosses** - Two main bosses, the hydra and the lion that give objects to increase players chances of beating the game/help them defeat other bosses/minions
+- **Minions** - Scattered across the world and in the boss fights to force the player to think critically, these minions–once defeated–can help boost your health as they drop health for the player.
+
 
 #### Lion
+*Boss*
+
+The lion utilizes a navmesh to navigate throughout different points on the terrain. The lion will roam around three different points in the level. As you fight the lion it will move onto the next point to mimic a retreat to the cave where the final battle sequence will take place (See below for image).
+
+*Fun fact: this lion is actually a tiger that was repainted to look more like a lioness!*
+
 <img width="500px" src="Assets/Images/lion.png">
 
 #### Foxes
+*Minion*
+
+Foxes will roam around different parts of the terrain in each level (except for the Hub) and have a chance to drop health for the player after defeat (See below for image).
+
 <img width="500px" src="Assets/Images/fox.png">
 
 #### Hydra
+*Boss*
+
+The hydra is a stationary enemy with multiple heads. When attacking the hydra there is a chance that the hydra will summon crabs and another chance that the crabs waves that spawn will double in amount (See below for image).
+
 <img width="500px" src="Assets/Images/hydra.png">
 
 #### Crabs
+*Minion*
+
+Crabs come in waves throughout the hydra arena level and have a chance to double in amount while fighting the hydra. Crabs also have a chance to drop health within the level after defeat in order to help aid in defeating the hydra (See below for image).
+
 <img width="500px" src="Assets/Images/crab.png">
 
 
