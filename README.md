@@ -109,14 +109,17 @@ Your quest can be accessed in the bottom left corner of the screen next to the o
 
 ### Level Design
 - **Hub** - Takes inspiration from both Greek and Roman architecture in its assets using Greek and Roman low poly lite packs. The Hub is the first place the player is introduced to and is the gateway to all levels.
-- **Lion Cave** - Forrest setting in which the player is tasked with learning how to fight (against foxes spread throughout the level) and parkour in order to chase down and defeat the lion in its cave.
+- **Lion Cave** - Forest setting in which the player is tasked with learning how to fight (against foxes spread throughout the level) and parkour in order to chase down and defeat the lion in its cave.
 - **Hydra Arena** - Arena setting in which the player enters the arena to be met with the Hydra–a stationary boss with crab minions that chase you throughout.
 
 ### Antagonistic Elements
+Enemies and obstacles are categorized as follows:
+  
 - **Parkour** - In between levels there will be pillars or boxes to jump on to get across rivers as an additive to make the game a bit more interesting and interactive.
 - **Bosses** - Two main bosses, the hydra and the lion that give objects to increase players chances of beating the game/help them defeat other bosses/minions
 - **Minions** - Scattered across the world and in the boss fights to force the player to think critically, these minions–once defeated–can help boost your health as they drop health for the player.
 
+Enemies the player will encounter throughout the game:
 
 #### Lion
 *Boss*
@@ -151,16 +154,35 @@ Crabs come in waves throughout the hydra arena level and have a chance to double
 
 
 ## Game Play
+Main objectives of game play and game elements that allow for a better user experience:
+  
+- Defeat the main bosses and save the day! Complete all labors to complete the game. Progression is tracked by the objects collected after boss fights.
+- Gameplay will be challenging due to the high hp of the bosses and minions that can take health during boss fights.
+- Rewards include the sacred objects from the bosses that you pick up that give you benefits (ex: the impenetrable hyde as a defense buff) that will help you defeat other bosses.
+- Things to make gameplay interesting include the addition of minions around the world and “puzzles” (ex: jumping across a lake/parkour to learn about jumping)
+- The level difficulty will increase throughout the game by having the boss's health increase so that defeating them is made more difficult. AI will also change making the bosses tactics different and increasingly difficult.
+  
+Level specific objectives and descriptions:
 
 ### Hub
-
+The Hub is the first "level" you encounter. It is the main area in which to orient yourself in. Here is where you will be given your quest. The Hub acts as the main entry point to all levels. Other than that just enjoy the scenery! (See below for image).
+  
 <img width="500px" src="Assets/Images/hub-final.png">
 
 ### Lion Cave
+The Lion Cave is the first active level in the game in which you find yourself fighting off smaller enemies in the forest on the way to the lion. This acts as the tutorial level and serves as an introduction to fighting enemies and parkour! (See below for images).
 
 <img width="500px" src="Assets/Images/lion-level.png">
+  
+*Forest: battle foxes to practice and gain health before the main boss–the lion*
+  
 <img width="500px" src="Assets/Images/lion-level-parkour.png">
+  
+*Parkour: use pillars and other objects in the water to make it across the river toward the lion cave*
+  
 <img width="500px" src="Assets/Images/lion-level-cave.png">
+  
+*Cave: the final phase of the level where the final showdown with the lion will occur. Will you be victorious?*
 
 ### Hydra Arena
 
