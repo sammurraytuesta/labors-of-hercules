@@ -63,31 +63,47 @@ All 3D and 2D game elements rendered using models and prefabs free from the <a h
 Play as Hercules–the ancient mythological hero–and complete the 12 labors. Hercules can fight enemies with the use of his sword and collect rewards that help aid him in his journey!
   
 #### Model 
-RPG Tiny Hero Duo model for male hero used for Hercules in game play.
-  
-(See below for image)
+RPG Tiny Hero Duo model for male hero rendered in low poly used for Hercules in game play (See below for image).
   
 <img width="500px" src="Assets/Images/tiny-hero.png">
 
 #### Animations
+Character animations for Hercules include walk, run, jump, idle, and attack. Note: Enemies in the game are equipped with the same animations however, their attack sequences may differ depending on type of enemy or point in combat. 
 
 #### Control Scheme
+- [W][A][S][D] - Move up, left, down, right
+- [Space] - Jump
+- [Shift] - Sprint
+- [Left Mouse Click] - Attack
+- [N] - Next Instruction (when prompted)
+- [ESC] + [Left Mouse Click] - Interact with UI
+
 
 #### Player Rewards
+After defeating each boss level (i.e. lion, hydra, etc.) a drop will appear for the player. If picked up/interacted with, the player will receive an item to commemorate the win. These ***items appear in the players item inventory and act as modifiers or buffs*** for the player which will gradually make them stronger so that they may be able to progress to the next boss with relative ease. Bosses are intended to be defeated in order of the famous labors however it is entirely possible to recieve items out of order with enough skill. 
 
 
 ### User Interface
+The user interface is derived from a 2D fantasy/adventure card game asset pack but transformed into what is depicted below (See below for details).  
 
 #### Main UI
+The main UI is depicted below with clickable options for settings (temporarily unavailable), items, and quest information. In the top right of the screen the player is able to see their health as an integer (See below for image).
+  
 <img width="500px" src="Assets/Images/hub-pov-2.png">
 
 #### Settings
+Settings can be acessed in the top right corner of the screen next to the health bar. Settings are temporarily unavailable and are there solely for aesthetic purposes rather than utility (See below for image).  
+
 <img width="500px" src="Assets/Images/settings.png">
 
 #### Items
+Items can be accessed in the bottom left corner of the screen next to the option to access your quest. Items come from drops after defeating each major boss and can act as modifiers or buffs to your character to better prepare them for future bosses. Badges for collected items will be displayed in your items in the order of the labors. Once all items have been collected (every boss in the game defeated) the player will be victorious and have the option to play again (See below for image).
+  
 <img width="500px" src="Assets/Images/items.png">
 
 #### Quest
+Your quest can be accessed in the bottom left corner of the screen next to the option to view your items. If you forget your quest at any time the full quest with Hercules' labors in order can be viewed from this menu (See below for image).
+  
 <img width="500px" src="Assets/Images/quest.png">
 
 
